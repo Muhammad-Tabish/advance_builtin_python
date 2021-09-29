@@ -27,9 +27,16 @@ class firstfiveiterator:
             return current
         else:
             raise StopIteration()
+gg = firstfiveiterator()
+print(next(gg))
+print(next(gg))
+print(next(gg))
+print(next(gg))
+print(next(gg))
+print(next(gg))
+print(next(gg))
+print(next(gg))
 
-fivenuber = firstfiveiterator()
-print(next(fivenuber))
-print(next(fivenuber))
+
 
 
