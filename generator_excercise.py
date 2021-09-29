@@ -1,4 +1,4 @@
-# Define a PrimeGenerator class
+
 class PrimeGenerator:
 
     def __init__(self, stop):
@@ -6,7 +6,7 @@ class PrimeGenerator:
         self.start = 2
 
     def __next__(self):
-        for n in range(self.start, self.start):
+        for n in range(self.start, self.stop):
             for x in range(2, n):
                 if n % x == 0:
                     break
@@ -14,4 +14,6 @@ class PrimeGenerator:
                 self.start = n+1
                 return n
         raise StopIteration()
+tt = PrimeGenerator(10)
+print(next(tt))
 
