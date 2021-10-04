@@ -13,7 +13,7 @@ friends =[
 
     {
         'name': 'atif',
-        'location': 'islamabad',
+        'location': 'karachi',
 
 
     },
@@ -35,4 +35,5 @@ else:
     print('sorry')
 
 
+print(all([ 1, 2 , 3, 4 ]))
 
